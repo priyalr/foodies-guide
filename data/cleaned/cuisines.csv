@@ -1,0 +1,148 @@
+,cuisine.cuisine_id,cuisine.cuisine_name
+0,1035,Afghan
+1,152,African
+2,1,American
+3,4,Arabian
+4,151,Argentine
+5,3,Asian
+6,401,Asian Fusion
+7,131,Australian
+8,201,Austrian
+9,193,BBQ
+10,5,Bakery
+11,145,Bangladeshi
+12,227,Bar Food
+13,273,Basque
+14,132,Belgian
+15,270,Beverages
+16,159,Brazilian
+17,133,British
+18,247,Bubble Tea
+19,168,Burger
+20,22,Burmese
+21,1061,Cabinet Food
+22,1039,Cafe Food
+23,111,Cambodian
+24,381,Canadian
+25,121,Cantonese
+26,158,Caribbean
+27,994,Charcoal Chicken
+28,25,Chinese
+29,161,Coffee and Tea
+30,287,Colombian
+31,144,Contemporary
+32,35,Continental
+33,928,Creole
+34,881,Crepes
+35,982,Croatian
+36,203,Danish
+37,192,Deli
+38,100,Desserts
+39,268,Drinks Only
+40,985,Dumplings
+41,204,Dutch
+42,651,Eastern European
+43,146,Egyptian
+44,149,Ethiopian
+45,38,European
+46,571,Falafel
+47,40,Fast Food
+48,112,Filipino
+49,271,Finger Food
+50,298,Fish and Chips
+51,45,French
+52,1025,Fried Chicken
+53,501,Frozen Yogurt
+54,274,Fusion
+55,205,Georgian
+56,134,German
+57,156,Greek
+58,181,Grill
+59,521,Hawaiian
+60,143,Healthy Food
+61,1022,Hot Pot
+62,228,Hungarian
+63,233,Ice Cream
+64,148,Indian
+65,114,Indonesian
+66,154,International
+67,140,Iranian
+68,206,Iraqi
+69,135,Irish
+70,218,Israeli
+71,55,Italian
+72,60,Japanese
+73,1036,Japanese BBQ
+74,265,Jewish
+75,164,Juices
+76,178,Kebab
+77,67,Korean
+78,1021,Korean BBQ
+79,136,Latin American
+80,66,Lebanese
+81,1058,Malatang
+82,69,Malaysian
+83,943,Mauritian
+84,977,Meat Pie
+85,70,Mediterranean
+86,73,Mexican
+87,137,Middle Eastern
+88,969,Modern Australian
+89,294,Modern European
+90,74,Mongolian
+91,147,Moroccan
+92,117,Nepalese
+93,50,North Indian
+94,321,Pacific
+95,139,Pakistani
+96,209,Pan Asian
+97,976,Parma
+98,306,Pastry
+99,183,Patisserie
+100,162,Peruvian
+101,1020,Pho
+102,82,Pizza
+103,1019,Poké
+104,219,Polish
+105,87,Portuguese
+106,983,Pub Food
+107,320,Ramen
+108,1033,Roast
+109,84,Russian
+110,998,Salad
+111,304,Sandwich
+112,312,Satay
+113,691,Scandinavian
+114,210,Scottish
+115,83,Seafood
+116,831,Shanghai
+117,128,Sichuan
+118,119,Singaporean
+119,461,Soul Food
+120,267,South African
+121,85,South Indian
+122,89,Spanish
+123,86,Sri Lankan
+124,141,Steak
+125,90,Street Food
+126,177,Sushi
+127,211,Swedish
+128,213,Swiss
+129,212,Syrian
+130,190,Taiwanese
+131,179,Tapas
+132,163,Tea
+133,981,Teppanyaki
+134,964,Teriyaki
+135,150,Tex-Mex
+136,95,Thai
+137,93,Tibetan
+138,142,Turkish
+139,451,Ukrainian
+140,264,Uruguayan
+141,1038,Uyghur
+142,1034,Vegan
+143,308,Vegetarian
+144,641,Venezuelan
+145,99,Vietnamese
+146,978,Yum Cha
