@@ -85,7 +85,7 @@ for i in range(num_cuisines):
     num_cuisine_restaurants = 1
     for j in search_counters:
     # for j in [0]:
-        # for restaurants that have less than 20, 40, 60, 80, 100 restaurants, don't make an extra API call
+        # for restaurants that have less than 20, 40, 60, 80, 100 restaurants, don't make any extra API calls
         if j < num_cuisine_restaurants: 
             try:
                 search_parameters['start'] = j
@@ -98,6 +98,7 @@ for i in range(num_cuisines):
             except Exception as e:
                 print(str(e) + ". Error on cuisine" + str(i) + " search counter " + str(j))
                 pass
+            cuisines_df.loc[i, 'num_restaurants'] = num_cuisine_restaurants
 
 restaurant_data_columns = ['cuisine_id'] + restaurant_data_columns
 restaurants_df = pd.DataFrame(restaurant_list, columns=restaurant_data_columns)
