@@ -108,6 +108,11 @@ restaurants_df = pd.DataFrame(restaurant_list, columns=restaurant_data_columns)
 # print(restaurants_df.shape)
 # print(restaurants_df)
 
+# Convert rating to numeric so that it can be used for rannk
+restaurants_df["restaurant.user_rating.aggregate_rating"] = pd.to_numeric(restaurants_df["restaurant.user_rating.aggregate_rating"])
+# Rank each restaurant within a cuisine by rating
+restaurants_df["rank"] = restaurants_df.groupby("cuisine_id")["restaurant.user_rating.aggregate_rating"].rank("dense", ascending=False)
+
 # =================================================================
 # OUTPUT DATA
 # =================================================================
