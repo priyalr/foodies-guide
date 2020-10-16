@@ -62,7 +62,8 @@ num_cuisines = cuisines_df.shape[0]
 search_counters = [c for c in range(0, 100, 20)] # increment the start parameter by 20 each time
 
 restaurant_list = []
-restaurant_data_columns = ['restaurant.name'
+restaurant_data_columns = ['restaurant.R.res_id'
+                           , 'restaurant.name'
                            , 'restaurant.location.address'
                            , 'restaurant.url'
                            , 'restaurant.location.locality'
