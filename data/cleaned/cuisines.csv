@@ -1,148 +1,148 @@
-,cuisine.cuisine_id,cuisine.cuisine_name
-0,1035,Afghan
-1,152,African
-2,1,American
-3,4,Arabian
-4,151,Argentine
-5,3,Asian
-6,401,Asian Fusion
-7,131,Australian
-8,201,Austrian
-9,193,BBQ
-10,5,Bakery
-11,145,Bangladeshi
-12,227,Bar Food
-13,273,Basque
-14,132,Belgian
-15,270,Beverages
-16,159,Brazilian
-17,133,British
-18,247,Bubble Tea
-19,168,Burger
-20,22,Burmese
-21,1061,Cabinet Food
-22,1039,Cafe Food
-23,111,Cambodian
-24,381,Canadian
-25,121,Cantonese
-26,158,Caribbean
-27,994,Charcoal Chicken
-28,25,Chinese
-29,161,Coffee and Tea
-30,287,Colombian
-31,144,Contemporary
-32,35,Continental
-33,928,Creole
-34,881,Crepes
-35,982,Croatian
-36,203,Danish
-37,192,Deli
-38,100,Desserts
-39,268,Drinks Only
-40,985,Dumplings
-41,204,Dutch
-42,651,Eastern European
-43,146,Egyptian
-44,149,Ethiopian
-45,38,European
-46,571,Falafel
-47,40,Fast Food
-48,112,Filipino
-49,271,Finger Food
-50,298,Fish and Chips
-51,45,French
-52,1025,Fried Chicken
-53,501,Frozen Yogurt
-54,274,Fusion
-55,205,Georgian
-56,134,German
-57,156,Greek
-58,181,Grill
-59,521,Hawaiian
-60,143,Healthy Food
-61,1022,Hot Pot
-62,228,Hungarian
-63,233,Ice Cream
-64,148,Indian
-65,114,Indonesian
-66,154,International
-67,140,Iranian
-68,206,Iraqi
-69,135,Irish
-70,218,Israeli
-71,55,Italian
-72,60,Japanese
-73,1036,Japanese BBQ
-74,265,Jewish
-75,164,Juices
-76,178,Kebab
-77,67,Korean
-78,1021,Korean BBQ
-79,136,Latin American
-80,66,Lebanese
-81,1058,Malatang
-82,69,Malaysian
-83,943,Mauritian
-84,977,Meat Pie
-85,70,Mediterranean
-86,73,Mexican
-87,137,Middle Eastern
-88,969,Modern Australian
-89,294,Modern European
-90,74,Mongolian
-91,147,Moroccan
-92,117,Nepalese
-93,50,North Indian
-94,321,Pacific
-95,139,Pakistani
-96,209,Pan Asian
-97,976,Parma
-98,306,Pastry
-99,183,Patisserie
-100,162,Peruvian
-101,1020,Pho
-102,82,Pizza
-103,1019,Poké
-104,219,Polish
-105,87,Portuguese
-106,983,Pub Food
-107,320,Ramen
-108,1033,Roast
-109,84,Russian
-110,998,Salad
-111,304,Sandwich
-112,312,Satay
-113,691,Scandinavian
-114,210,Scottish
-115,83,Seafood
-116,831,Shanghai
-117,128,Sichuan
-118,119,Singaporean
-119,461,Soul Food
-120,267,South African
-121,85,South Indian
-122,89,Spanish
-123,86,Sri Lankan
-124,141,Steak
-125,90,Street Food
-126,177,Sushi
-127,211,Swedish
-128,213,Swiss
-129,212,Syrian
-130,190,Taiwanese
-131,179,Tapas
-132,163,Tea
-133,981,Teppanyaki
-134,964,Teriyaki
-135,150,Tex-Mex
-136,95,Thai
-137,93,Tibetan
-138,142,Turkish
-139,451,Ukrainian
-140,264,Uruguayan
-141,1038,Uyghur
-142,1034,Vegan
-143,308,Vegetarian
-144,641,Venezuelan
-145,99,Vietnamese
-146,978,Yum Cha
+,cuisine.cuisine_id,cuisine.cuisine_name,num_restaurants
+0,1035,Afghan,45.0
+1,152,African,56.0
+2,1,American,1022.0
+3,4,Arabian,73.0
+4,151,Argentine,8.0
+5,3,Asian,3934.0
+6,401,Asian Fusion,39.0
+7,131,Australian,1195.0
+8,201,Austrian,2.0
+9,193,BBQ,135.0
+10,5,Bakery,1935.0
+11,145,Bangladeshi,3.0
+12,227,Bar Food,591.0
+13,273,Basque,1.0
+14,132,Belgian,1.0
+15,270,Beverages,500.0
+16,159,Brazilian,6.0
+17,133,British,749.0
+18,247,Bubble Tea,256.0
+19,168,Burger,906.0
+20,22,Burmese,6.0
+21,1061,Cabinet Food,1.0
+22,1039,Cafe Food,3826.0
+23,111,Cambodian,10.0
+24,381,Canadian,1.0
+25,121,Cantonese,31.0
+26,158,Caribbean,3.0
+27,994,Charcoal Chicken,250.0
+28,25,Chinese,1239.0
+29,161,Coffee and Tea,4010.0
+30,287,Colombian,5.0
+31,144,Contemporary,48.0
+32,35,Continental,23.0
+33,928,Creole,2.0
+34,881,Crepes,21.0
+35,982,Croatian,2.0
+36,203,Danish,1.0
+37,192,Deli,76.0
+38,100,Desserts,996.0
+39,268,Drinks Only,135.0
+40,985,Dumplings,237.0
+41,204,Dutch,3.0
+42,651,Eastern European,25.0
+43,146,Egyptian,6.0
+44,149,Ethiopian,25.0
+45,38,European,1654.0
+46,571,Falafel,11.0
+47,40,Fast Food,1298.0
+48,112,Filipino,23.0
+49,271,Finger Food,6.0
+50,298,Fish and Chips,735.0
+51,45,French,132.0
+52,1025,Fried Chicken,175.0
+53,501,Frozen Yogurt,42.0
+54,274,Fusion,73.0
+55,205,Georgian,1.0
+56,134,German,14.0
+57,156,Greek,173.0
+58,181,Grill,72.0
+59,521,Hawaiian,8.0
+60,143,Healthy Food,339.0
+61,1022,Hot Pot,80.0
+62,228,Hungarian,3.0
+63,233,Ice Cream,204.0
+64,148,Indian,662.0
+65,114,Indonesian,49.0
+66,154,International,13.0
+67,140,Iranian,18.0
+68,206,Iraqi,1.0
+69,135,Irish,10.0
+70,218,Israeli,7.0
+71,55,Italian,1994.0
+72,60,Japanese,878.0
+73,1036,Japanese BBQ,19.0
+74,265,Jewish,2.0
+75,164,Juices,136.0
+76,178,Kebab,378.0
+77,67,Korean,240.0
+78,1021,Korean BBQ,65.0
+79,136,Latin American,211.0
+80,66,Lebanese,75.0
+81,1058,Malatang,34.0
+82,69,Malaysian,230.0
+83,943,Mauritian,5.0
+84,977,Meat Pie,41.0
+85,70,Mediterranean,339.0
+86,73,Mexican,173.0
+87,137,Middle Eastern,429.0
+88,969,Modern Australian,1098.0
+89,294,Modern European,36.0
+90,74,Mongolian,1.0
+91,147,Moroccan,7.0
+92,117,Nepalese,35.0
+93,50,North Indian,5.0
+94,321,Pacific,1.0
+95,139,Pakistani,38.0
+96,209,Pan Asian,6.0
+97,976,Parma,7.0
+98,306,Pastry,1.0
+99,183,Patisserie,117.0
+100,162,Peruvian,4.0
+101,1020,Pho,123.0
+102,82,Pizza,1436.0
+103,1019,Poké,15.0
+104,219,Polish,9.0
+105,87,Portuguese,81.0
+106,983,Pub Food,408.0
+107,320,Ramen,60.0
+108,1033,Roast,4.0
+109,84,Russian,5.0
+110,998,Salad,78.0
+111,304,Sandwich,865.0
+112,312,Satay,1.0
+113,691,Scandinavian,3.0
+114,210,Scottish,3.0
+115,83,Seafood,156.0
+116,831,Shanghai,5.0
+117,128,Sichuan,35.0
+118,119,Singaporean,14.0
+119,461,Soul Food,2.0
+120,267,South African,3.0
+121,85,South Indian,68.0
+122,89,Spanish,111.0
+123,86,Sri Lankan,95.0
+124,141,Steak,103.0
+125,90,Street Food,34.0
+126,177,Sushi,501.0
+127,211,Swedish,1.0
+128,213,Swiss,1.0
+129,212,Syrian,2.0
+130,190,Taiwanese,84.0
+131,179,Tapas,78.0
+132,163,Tea,44.0
+133,981,Teppanyaki,9.0
+134,964,Teriyaki,9.0
+135,150,Tex-Mex,8.0
+136,95,Thai,520.0
+137,93,Tibetan,2.0
+138,142,Turkish,141.0
+139,451,Ukrainian,1.0
+140,264,Uruguayan,1.0
+141,1038,Uyghur,9.0
+142,1034,Vegan,77.0
+143,308,Vegetarian,110.0
+144,641,Venezuelan,1.0
+145,99,Vietnamese,645.0
+146,978,Yum Cha,77.0

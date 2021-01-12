@@ -62,7 +62,8 @@ num_cuisines = cuisines_df.shape[0]
 search_counters = [c for c in range(0, 100, 20)] # increment the start parameter by 20 each time
 
 restaurant_list = []
-restaurant_data_columns = ['restaurant.name'
+restaurant_data_columns = ['restaurant.R.res_id'
+                           , 'restaurant.name'
                            , 'restaurant.location.address'
                            , 'restaurant.url'
                            , 'restaurant.location.locality'
@@ -85,7 +86,7 @@ for i in range(num_cuisines):
     num_cuisine_restaurants = 1
     for j in search_counters:
     # for j in [0]:
-        # for restaurants that have less than 20, 40, 60, 80, 100 restaurants, don't make an extra API call
+        # for restaurants that have less than 20, 40, 60, 80, 100 restaurants, don't make any extra API calls
         if j < num_cuisine_restaurants: 
             try:
                 search_parameters['start'] = j
@@ -98,6 +99,7 @@ for i in range(num_cuisines):
             except Exception as e:
                 print(str(e) + ". Error on cuisine" + str(i) + " search counter " + str(j))
                 pass
+            cuisines_df.loc[i, 'num_restaurants'] = num_cuisine_restaurants
 
 restaurant_data_columns = ['cuisine_id'] + restaurant_data_columns
 restaurants_df = pd.DataFrame(restaurant_list, columns=restaurant_data_columns)
@@ -105,6 +107,11 @@ restaurants_df = pd.DataFrame(restaurant_list, columns=restaurant_data_columns)
 # print(restaurants_df.columns)
 # print(restaurants_df.shape)
 # print(restaurants_df)
+
+# Convert rating to numeric so that it can be used for rannk
+restaurants_df["restaurant.user_rating.aggregate_rating"] = pd.to_numeric(restaurants_df["restaurant.user_rating.aggregate_rating"])
+# Rank each restaurant within a cuisine by rating
+restaurants_df["rank"] = restaurants_df.groupby("cuisine_id")["restaurant.user_rating.aggregate_rating"].rank("dense", ascending=False)
 
 # =================================================================
 # OUTPUT DATA
